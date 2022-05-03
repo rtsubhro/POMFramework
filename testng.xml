@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rediff Money Portfolio Suite">
+  <test thread-count="5" name="Rediff Money Portfolio Test">
+  	<groups>
+  		<run>
+  			<include name="AddPortfolio"></include>
+  		</run>
+  	</groups>
+  
+    <classes>
+      <class name="com.pom.framework.testcases.MyPortfolioTest"/>
+    </classes>
+  </test> <!-- Rediff Money Portfolio Test -->
+</suite> <!-- Rediff Money Portfolio Suite -->
